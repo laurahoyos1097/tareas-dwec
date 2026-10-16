@@ -2,7 +2,6 @@
 Estructuras de decisión (`if...else`, `switch`) y bucles (`for...of`, `do...while`) en JavaScript ejecutados en el navegador.
 
 ## 🚀 Resultado Visual
- Captura de la consola tras probar las estructuras de control.
 ![Resultado en consola](capturas/captura1.png)
 
 ## 🛠️ Tecnologías utilizadas
