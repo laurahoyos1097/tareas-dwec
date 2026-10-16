@@ -3,7 +3,7 @@ Estructuras de decisión (`if...else`, `switch`) y bucles (`for...of`, `do...whi
 
 ## 🚀 Resultado Visual
  Captura de la consola tras probar las estructuras de control.
-![Resultado en consola](/capturas/captura1.png)
+![Resultado en consola](capturas/captura1.png)
 
 ## 🛠️ Tecnologías utilizadas
 - JavaScript (ES6)
