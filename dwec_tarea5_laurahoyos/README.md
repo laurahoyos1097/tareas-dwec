@@ -2,7 +2,7 @@
 Uso de los objetos nativos `Math`, `Date` y `String` en JavaScript para generar identificadores aleatorios, realizar cálculos temporales y formatear textos.
 
 ## 🚀 Resultado Visual
-![Resultado en consola](captura2.png)
+![Resultado en consola](capturas/captura2.png)
 
 ## 🛠️ Tecnologías utilizadas
 - JavaScript (ES6)
