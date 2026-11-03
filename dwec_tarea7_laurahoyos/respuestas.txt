@@ -1,0 +1,16 @@
+Explicación de cambios y resultados:
+
+1. Cambios realizados:
+   - En el Paso 6 se rellenaron los huecos (???) pasando los callbacks 'mostrarMedia' y 'evaluarGrupo' (sin paréntesis) a la función 'procesarListaNotas'.
+   - Se añadió la prueba de 'esAprobado(4.5, 4)' junto a 'esAprobado(4.5)'.
+
+2. Resultados obtenidos:
+   - Primera comprobación: Devuelve una media de 6.40 y el estado APROBADO.
+   - Segunda comprobación: Devuelve una media de 3.00 y el estado REQUIERE REFUERZO.
+
+3. ¿Por qué esAprobado(4.5) devuelve false mientras que esAprobado(4.5, 4) devuelve true?:
+   - La función 'esAprobado' define el parámetro 'notaCorte' con un valor por defecto de 5 (notaCorte = 5).
+   - Al llamar a esAprobado(4.5), no se pasa un segundo argumento, por lo que 'notaCorte' toma el valor 5. Como 4.5 >= 5 es falso, devuelve 'false'.
+   - Al llamar a esAprobado(4.5, 4), el parámetro 'notaCorte' sobreescribe el valor por defecto y pasa a ser 4. Como 4.5 >= 4 es verdadero, devuelve 'true'.
+
+Nota sobre capturas: Dado que todo el script se ejecuta seguido, ambas pruebas se visualizan completas en una única captura (capturas/captura1.png).
